@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+}
+
+.login {
+    text-align: center;
+    border: 2px solid black;
+    width: 1050px;
+    height: 425px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+.mainimg {
+    display: flex; /* 使用 Flex 布局 */
+}
+
+.mainimg img {
+    margin-right: auto; /* 图片向左移动 */
+    width: 450px;
+    height: auto;
+    padding: 30px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 内容靠左 */
+}
+
+#enterinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 输入框靠左 */
+}
+
+#account-input, #password-input {
+    padding: 5px;
+    display: block; /* 确保每个输入框独占一行 */
+    margin-bottom: 10px; /* 下边距10像素 */
+    width: 450px; /* 设置输入框宽度 */
+    height: 30px; /* 设置输入框高度 */
+    font-size: 20px; /* 设置字体大小 */
+    text-align: left; /* 文字靠左对齐 */
+    margin-left: 30px; /* 靠左置中 */
+    margin-right: 30px; /* 靠左置中 */
+}
+.log-in
+{
+    width: 465px;
+    height: 40px;
+    font-size: 20px;
+    background-color: darkred;
+    color: white;
+    margin-left: 30px; /* 靠左置中 */
+    margin-right: 30px; /* 靠左置中 */
+}
